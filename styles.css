@@ -1,0 +1,70 @@
+/* Base */
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #00044C; background:#FFFFFF; }
+.page { display: flex; background: #FFFFFF; }
+
+/* Sidebar */
+.sidebar { width: 25%; background:#00044C; color:#FFFFFF; padding: 50px 20px 0 20px; word-break: break-word; }
+.sidebar .block + .block { border-top: 1px solid #FFFFFF; }
+.sidebar h2 { margin: 40px 0 10px 0; }
+.sidebar .info p { display: flex; gap: 15px; margin: 30px 0 30px 0; }
+.sidebar .info .icon { width: 28px; height: 22px; }
+
+/* Profile photo */
+.photo img { width:200px; height:200px; border-radius:50%; object-fit:cover; border:4px solid #FFFFFF; }
+.photo-box { background-color: #00044C; background-image: linear-gradient(rgba(210,210,249,0.20), rgba(210,210,249,0.20)); margin:10px -20px 0; height:240px; padding:20px 0 0; text-align:center; }
+
+/* Blocks */
+.block { margin:0 0 30px 0; }
+
+/* Technical skills */
+.skill { margin:8px 0; }
+.skill span { display:block; font-size:22px; margin:20px 0 10px; }
+.bar { width:100%; height:20px; border-radius:15px; overflow:hidden; border:#FFFFFF 2px solid; }
+.fill { height:100%; background:#FFFFFF; }
+
+/* Soft skills */
+.tags { list-style:none; padding:0; }
+.tags li { font-size:18px; font-weight:700; padding:5px; border-radius:18px; color:#00044C; background:#D2D2F9; border:2px solid #FFFFFF; display:inline-block; margin:10px 10px 10px 0; }
+
+/* Main content */
+.content { flex:1; background:#FFFFFF; }
+
+/* Header */
+.name { background:#D2D2F9; padding:20px 0 0; margin:60px 0 0; height:240px; }
+.name h1 { margin:0; padding:0 0 0 150px; font-size:80px; color:#00044C; }
+
+/* Profile paragraph */
+#profile-text { padding:20px 0 0 0; }
+
+/* Main block spacing */
+.content .block { margin:60px; }
+
+/* Section Titles */
+.content h2 { background:#00044C; color:#FFFFFF; display:flex; align-items:center; border-radius:30px 0 0 30px; padding:10px; font-size:22px; font-weight:700; }
+.content h2 .section-icon { width:44px; height:44px; border-radius:50%; }
+
+/* Dates badges (right aligned) */
+.dates { float:right; display:flex; flex-direction:column; gap:6px; align-items:flex-end; font-size:18px; }
+
+/* Work experience */
+.card li { font-size:18px; }
+.card { background:#D9D9D9; border-left:4px solid #00044C; padding:12px; border-radius:6px; margin:30px 0 0; }
+.badge { color:#00044C; background:#D2D2F9; padding:2px 8px; border-radius:14px; font-size:12px; font-weight:700; }
+.card .company { font-size:18px; margin:15px 0; }
+.card ul { margin:0; padding-left:18px; }
+
+/* Education (green completed / orange in progress) */
+.edu { color:#048500; background:#D9D9D9; padding:12px; border-radius:6px; margin:30px 0 0; border-left:4px solid #048500; }
+.edu-studing { color:#E37D00; background:#D9D9D9; padding:12px; border-radius:6px; margin:30px 0 0; border-left:4px solid #E37D00; }
+.edu div, .edu-studing div { font-size:18px; }
+.edu .badge { color:#048500; }
+.edu-studing .badge { color:#E37D00; }
+
+/* Languages */
+.lang { margin:20px 0 0 0; }
+.lang > span { font-size:22px; font-weight:700; }
+.lang > .level { font-weight:normal; float:right; }
+.bar.light { border:#00044C 2px solid; }
+.fill.dark { background:#00044C; }
+
+
