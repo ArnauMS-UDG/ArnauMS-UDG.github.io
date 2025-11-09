@@ -45,3 +45,5 @@ https://www.figma.com/design/CQoIUvLbMu4JgSGuqTeNRg/CV--Practica-UDG-?node-id=0-
 # Link to the website: 
 
 [ArnauMS-UDG.github.io](https://arnaums-udg.github.io/)
+
+Comment: I used AI for the translation of the text into English.
