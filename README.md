@@ -41,3 +41,7 @@ In conclusion, the design aims to reflect a professional, orderly, and technolog
 # Link to the Figma project: 
 
 https://www.figma.com/design/CQoIUvLbMu4JgSGuqTeNRg/CV--Practica-UDG-?node-id=0-1&t=agcrqjOfi8zXxzQM-1
+
+# Link to the website: 
+
+[ArnauMS-UDG.github.io](https://arnaums-udg.github.io/)
